@@ -13,10 +13,8 @@
   <jwr:style src="/app.css"/>
 
 </head>
-<body  ng-app="app">
-
-<world></world>
-
+<body ng-app="app">
+<div ui-view></div>
 <jwr:script src="/lib.js"/>
 <jwr:script src="/app.js"/>
 </body>

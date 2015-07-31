@@ -37,7 +37,10 @@
     <servlet-api.version>3.1.0</servlet-api.version>
     <jawr-version>3.5.2</jawr-version>
 
-    <angularjs.version>1.4.2</angularjs.version>
+    <angularjs.version>1.4.3</angularjs.version>
+    <bootstrap.version>3.3.5</bootstrap.version>
+    <angular-ui-bootstrap.version>0.13.1</angular-ui-bootstrap.version>
+    <angular-ui-router.version>0.2.15</angular-ui-router.version>
   </properties>
 
   <dependencies>
@@ -55,7 +58,7 @@
 
     <dependency>
       <groupId>org.slf4j</groupId>
-      <artifactId>slf4j-api</artifactId>
+      <artifactId>slf4j-log4j12</artifactId>
       <version>${slf4j.version}</version>
     </dependency>
 
@@ -114,7 +117,21 @@
       <artifactId>angularjs</artifactId>
       <version>${angularjs.version}</version>
     </dependency>
-
+    <dependency>
+      <groupId>org.webjars</groupId>
+      <artifactId>bootstrap</artifactId>
+      <version>${bootstrap.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars</groupId>
+      <artifactId>angular-ui-bootstrap</artifactId>
+      <version>${angular-ui-bootstrap.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars</groupId>
+      <artifactId>angular-ui-router</artifactId>
+      <version>${angular-ui-router.version}</version>
+    </dependency>
 
   </dependencies>
 
