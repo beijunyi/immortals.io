@@ -1,4 +1,4 @@
-package io.immortals.config.web;
+package io.immortals.web;
 
 import javax.annotation.Nonnull;
 import javax.servlet.*;

@@ -1,5 +1,6 @@
-package io.immortals.config;
+package io.immortals.web;
 
+import io.immortals.RuntimeConfig;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 public class DispatcherServletInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
